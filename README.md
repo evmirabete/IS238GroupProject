@@ -41,9 +41,12 @@ This project integrates **Cloudflare Email Router**, **AWS Lambda**, and **Teleg
 
 ---
 
-## 🗄️ Database
-- Stores Telegram user data and associated system-generated email addresses.
-- Tracks active/inactive email addresses for each user.
+## 🗄️ Databases
+- Dynamo
+  - Stores Telegram user data and associated system-generated email addresses.
+  - Tracks active/inactive email addresses for each user.
+- S3
+  - Stores the raw emails
 
 ---
 
